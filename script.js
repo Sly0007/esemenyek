@@ -7,5 +7,7 @@ $(".button2").click(()=> {
 })
 
 $('.button3').click(()=>{
-    $("button").css('background-color','Green')
+   let col = $(".szin").val();
+    
+   $(".button3").css('background-color',col)
 })
